@@ -7,6 +7,19 @@ commands:
     description: Redeem XP into XP Bottles.
   exp:
     description: Check your current experience.
+  addxp:
+    description: Add XP to yourself or others.
+  removexp:
+    description: Romove XP from yourself or others.
+   
 permission:
   redeem.exp:
     default: true
+  xp.addown:
+    default: false
+  xp.addothers:
+    default: false
+  xp.removeown:
+    default: false
+  xp.removeothers:
+    default: false

@@ -1,15 +1,31 @@
 # xpbottle
 # This xpbottle was reconfigured by ItzFrozt to work with API 3.0.0
-# Originial by Muqsit
+# Originial is by Muqsit
 
-# XPBottle:
+XPBottle:
 
 This plugin allows you to redeem your XP levels via a simple command.
 
-# commands
+# Commands:
 
-/xpbottle (amount) - Redeem XP into bottle
-/exp - Check how much experience you have!
-Permissions:
+  xpbottle:
+    description: Redeem XP into XP Bottles.
+  exp:
+    description: Check your current experience.
+  addxp:
+    description: Add XP to yourself or others.
+  removexp:
+    description: Romove XP from yourself or others.
+   
+# Permissions
 
-redeem.exp (Everyone has this permission. It's not restricted to OPs only).
+  redeem.exp:
+    default: true
+  xp.addown:
+    default: false #op by default
+  xp.addothers:
+    default: false #op by default
+  xp.removeown:
+    default: false #op by default
+  xp.removeothers:
+    default: false #op by default
