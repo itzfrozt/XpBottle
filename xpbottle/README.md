@@ -1,5 +1,5 @@
 # xpbottle
-# This xpbottle was reconfigured by ItzFrozt to work with API 3.0.0
+# This xpbottle was reworked by ItzFrozt
 # Originial is by Muqsit
 
 XPBottle:
