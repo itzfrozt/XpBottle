@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Original plugin made by Muqsit
+ * This is just a small edit/Repost Made by ItzFrozt to work with API 3.0.0
+ * Posted To Help Those Who Don't Understand How To Edit Plugins
+ */ 
+
 namespace Frozt;
 
 use pocketmine\event\player\PlayerInteractEvent;
