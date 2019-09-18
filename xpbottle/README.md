@@ -1,7 +1,6 @@
 # xpbottle
 # This xpbottle was reconfigured by ItzFrozt to work with API 3.0.0
 # Originial by Muqsit
-# commands
 
 # XPBottle:
 
