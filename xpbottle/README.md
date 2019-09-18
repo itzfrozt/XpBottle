@@ -24,11 +24,15 @@ This plugin allows you to redeem your XP levels via a simple command.
 
   xp.redeem:
     default: true
+    
   xp.addown:
     default: false #op by default
+    
   xp.addothers:
     default: false #op by default
+    
   xp.removeown:
     default: false #op by default
+    
   xp.removeothers:
     default: false #op by default
