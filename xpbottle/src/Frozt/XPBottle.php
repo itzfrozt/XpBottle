@@ -74,7 +74,7 @@ class XPBottle extends PluginBase implements Listener{
         return true;
       break;
       case "xpbottle":
-        if(!$sender->hasPermission("redeem.exp")) return true;
+        if(!$sender->hasPermission("xp.redeem")) return true;
         if(!isset($args[0])) {
 			$sender->sendMessage(TF::YELLOW."/xpbottle <amount>\n".TF::GRAY."Check your current experience using the command ".TF::YELLOW."/exp");
 			return true;
