@@ -10,16 +10,19 @@ This plugin allows you to redeem your XP levels via a simple command.
 
   xpbottle:
     description: Redeem XP into XP Bottles.
+    
   exp:
     description: Check your current experience.
+    
   addxp:
     description: Add XP to yourself or others.
+    
   removexp:
     description: Romove XP from yourself or others.
    
 # Permissions
 
-  redeem.exp:
+  xp.redeem:
     default: true
   xp.addown:
     default: false #op by default
